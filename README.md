@@ -1,2 +1,2 @@
 # raspberrypi-zero-ccloud-producer-dockerr
-Docker build for producer client of confluent cloud on raspberry pi zero
+Docker build for producer client of Confluent Cloud on raspberry pi zero
