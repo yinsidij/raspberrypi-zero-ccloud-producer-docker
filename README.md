@@ -14,7 +14,7 @@ This repo provides a way to complie `producer` binary in docker and this allows 
 cd /home/pi/ccloud/producer/
 gcc -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align producer.c common.c json.c -o ../build/producer -lrdkafka -lm -lz  -ldl -lcrypto -lssl -lpthread -lrt
 ```
-You are expected to see `producer` binary in your host
+You are expected to see `producer` binary in your host machine
 ```
 pi@raspberrypi:~/raspberrypi-zero-ccloud-producer-docker $ file build/producer
 build/producer: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.3, BuildID[sha1]=88f6cbb055f5d5fe444aa52c58e1d07b518c1031, for GNU/Linux 3.2.0, with debug_info, not stripped
